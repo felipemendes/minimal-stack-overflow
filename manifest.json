@@ -1,0 +1,18 @@
+{
+  "name": "Minimal Stack Overflow",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A simple way to hide both sidebars from Stack Overflow question`s page",
+  "homepage_url": "https://github.com/felipemendes/minimal-stack-overflow",
+  "content_scripts": [{
+    "css": [
+      "css/styles.min.css"
+    ],
+    "js": [
+      "js/content.js"
+    ],
+    "matches": [
+      "https://stackoverflow.com/questions/*"
+    ]
+  }]
+}

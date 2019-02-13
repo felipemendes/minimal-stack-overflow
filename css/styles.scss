@@ -1,0 +1,18 @@
+.minimal-stack-overflow {
+  #left-sidebar,
+  #sidebar {
+    display: none;
+  }
+  #content,
+  #mainbar {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  #content {
+    border: none !important;
+  }
+}
+
+#show-details {
+  margin-left: 10px;
+}
