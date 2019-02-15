@@ -21,7 +21,8 @@
       "js/content.js"
     ],
     "matches": [
-      "https://stackoverflow.com/questions/*"
+      "https://stackoverflow.com/questions/*",
+      "https://*.stackoverflow.com/questions/*"
     ]
   }]
 }
